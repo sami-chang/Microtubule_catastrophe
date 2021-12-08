@@ -1,14 +1,30 @@
 - script:
-  name: labeling.ipynb
+  name: script1.py
   desc: >
-    script for Aim 1: Data Validation for Microtubule Experiments
-    
+    Super fancy script which calcualate some complicated stuff with
+    well-documented code.
 - script:
-  name: modeling.ipynb
+  name: script2.py
   desc: >
-    script for Aim 2: Possible Models for Microtubule Catastrophe
+    Yet another script that does something-or-other.
 
 - script:
-  name: model_conc.ipynb
+  name: hw2.3ipynb
   desc: >
-    script building on Aim 2: models for different tubulin concentrations
+    Microtubule catastrophe and ECDFs.
+- script:
+  name: hw6.2.ipynb
+  desc: >
+    Develop a Gamma model to model microtubule catastrophe dynamics.
+- script:
+  name: hw7.1.ipynb
+  desc: >
+    Confidence intervals for the plug-in estimate for the mean time to catastrophe for each of the two conditions.
+- script:
+  name: hw9.2.ipynb
+  desc: >
+    Maximum likelihood estimate for the parameters of the Gamma distribution, with confidence regions for our MLE.
+- script:
+  name: hw10.1.ipynb
+  desc: >
+    Analysis of microtubule catastrophe, comparing two possible models of dyanmics. In one model, the catastrophe times were Gamma distributed, and in another, they were distributed according to the following story: The arrival of two successive Poisson processes (with different rates) immediately trigger microtubule catastrophe..

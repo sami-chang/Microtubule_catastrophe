@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Introduction 
 description: Information about the project, website, and links to the paper and SI
-img: about.png # Add image post (optional)
-caption: "A Serious Man (2010)"
+img: about.jpg # Add image post (optional)
+caption: "Kinesin Cargo Art"
 permalink: index.html
 sidebar: true
 ---

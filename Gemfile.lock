@@ -102,4 +102,4 @@ DEPENDENCIES
   nokogiri (>= 1.10.8)
 
 BUNDLED WITH
-   2.2.33
+   2.2.32

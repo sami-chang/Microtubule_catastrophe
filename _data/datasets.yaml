@@ -1,28 +1,20 @@
 - dataset:
-  storage: remote
-  name: "Unlabeled vs labeled tubulin performance"
-  filetype: "csv"
+  storage: local
+  name: Sampling statistics from some fancy experiment
+  filetype: ".csv"
+  link: dataset1.csv
   filesize: "24 MB"
-  link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
-  DOI: 10.1016/j.cell.2011.10.037
-  
-- dataset:
-  storage: remote
-  name: "tubulin performance at different concentrations"
-  filetype: "csv"
-  filesize: "24 MB"
-  link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
-  DOI: 10.1016/j.cell.2011.10.037
 
 - dataset:
   storage: local
-  name: Unlabeled vs labeled tubulin performance
+  name: Table of measurements from an old-school study for comparison
   filetype: ".csv"
-  link: gardner_time_to_catastrophe_dic_tidy
+  link: dataset2.csv
 
 - dataset:
-  storage: local
-  name: tubulin performance at different concentrations
-  filetype: ".csv"
-  link: gardner_mt_catastrophe_only_tubulin
-
+  storage: remote 
+  link: "https://data.caltech.edu"
+  DOI:  "10.1.1./journal.0000"
+  name: "Anonymized data from web scraping"
+  filetype: .zip 
+  filesize: 2 gb

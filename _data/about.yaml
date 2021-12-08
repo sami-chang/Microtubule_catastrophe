@@ -10,30 +10,33 @@
 # The content below will appear 
 
 title: >
-  Investigating Microtubule Catastrophe
+  Investigating the dynamics of Microtubule Catastrophe 
 authors: >
-  Rahma Elsiesy, Geeling Chau and Sami Chang 
+  Brian Ahn, Nadia Suryawinata and Marion Pang
 Abstract: >
-  Microtubules alternate between periods of slow growth and moments of quick shortening.
-  This switch from growth to shortening is often referred to as "microtubule catastrophe."
-  Using the dataset provided by Gardner, Zanic and coworkers, we analyze the dynamics
-  of microtubule catastrophe with two main aims:
-  
-  Aim 1) To perform data validation. In their experiment, microtubules were studied using
-  fluorescent markers. We confirm that these fluorescent markers do not affect
-  microtubule behavior by comparing results between labeled and unlabeled tubulin.
-  
-  Aim 2) To investigate possible models for microtubule catastrophe. We look at
-  two proposed models for the generative distribution:
-  that catastrophe times are gamma distributed,
-  or that catastrophe depends on the arrival of two poisson processes.
-  We look at various datasets to determine which model best describes the observed results.
+  [Gardner, Zanic, and coworkers](http://dx.doi.org/10.1016/j.cell.2011.10.037) investigated 
+  the dynamics of microtubule catastrophe, the switching of a microtubule from a growing to 
+  a shrinking state. In particular, they were interested in the time between the start of 
+  growth of a microtubule and   the catastrophe event. They monitored microtubules by using 
+  tubulin (the monomer   that comprises a microtubule) that was labeled with a fluorescent 
+  marker. As a control   to make sure that fluorescent labels and exposure to laser light 
+  did not affect the   microtubule dynamics, they performed a similar experiment using 
+  differential interference   contrast (DIC) microscopy. They measured the time until 
+  catastrophe with labeled and unlabeled tubulin.
+
+  Microtubules are dynamic filaments whose ends alternate between periods of slow growth 
+  and rapid shortening as they explore intracellular space and move organelles. A key question 
+  is how regulatory proteins modulate catastrophe, the conversion from growth to shortening. To 
+  study this process, we reconstituted microtubule dynamics in the absence and presence of the 
+  kinesin-8 Kip3 and the kinesin-13 MCAK. Surprisingly, we found that, even in the absence of the 
+  kinesins, the microtubule catastrophe frequency depends on the age of the microtubule, indicating 
+  that catastrophe is a multistep process. Kip3 slowed microtubule growth in a length-dependent manner 
+  and increased the rate of aging. In contrast, MCAK eliminated the aging process. Thus, both kinesins 
+  are catastrophe factors; Kip3 mediates fine control of microtubule length by narrowing the distribution 
+  of maximum lengths prior to catastrophe, whereas MCAK promotes rapid restructuring of the microtubule 
+  cytoskeleton by making catastrophe a first-order random process.
+Summary:  >
+  insert summary here bc im too tired to think
 Acknowledgments: > 
-  Big thanks to the authors who provided this dataset: Melissa K.Gardner, Marija Zanic,
-  Christopher Gell, Volker Bormuth, Jonathon Howard in their paper "Depolymerizing Kinesins Kip3
-  and MCAK Shape Cellular Microtubule Architecture by Differential Control of Catastrophe."
-  
-  Also thanks to Griffin Chure for providing the template for this website.
-  
-  And finally, thanks to the Caltech's bebi103a instructor Justin Bois, and the fabulous TA's that
-  supported us along the way: Matteo Guareschi, Victoria Chen, Rosita Fu, Nastya Grebin, David Larios
+  Done by Ahn Seo Kyung (Brian), Nadia Suryawinata and Marion Pang, with help from Professor Justin Bois and TAs 
+  Victoria Chen, Rosita Fu, Nastya Grebin, Matteo Guareschi, Rashi Jeeda and David Larios.

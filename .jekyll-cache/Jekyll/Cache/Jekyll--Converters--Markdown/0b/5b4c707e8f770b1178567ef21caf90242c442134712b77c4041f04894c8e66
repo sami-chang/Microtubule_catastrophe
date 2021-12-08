@@ -1,0 +1,98 @@
+I"ü	<hr />
+
+<!--
+This page autogenerates a list of the authors provided in the people.yaml file
+in the _data folder. Do not touch the code below unless you have an idea of what
+you're doing, or it will break the display of the authors. 
+-->
+
+<!-- Loop through each author in the data file -->
+
+<!-- Define a new "article" environment, which is the object with author info -->
+<article class="post">
+
+<!-- Determine if an image is provided for the author, if not use a silhouette -->
+
+
+<!-- Determine if a website is associated with the author, if not use a blank-->
+
+
+<!-- Populate the author fields --> 
+
+ <a class="post-thumbnail" style="background-image: url(//assets/img/people/brian.png)" href="https://en.wikipedia.org/wiki/Minecraft"></a>
+
+<!-- Populate the author environment with the information -->
+<div class="post-content">
+
+<a href="https://en.wikipedia.org/wiki/Minecraft"><b class="post-title">Brian Ahn</b></a>
+
+<p>G1 Bioengineering</p>
+
+<p>Bicoid Institute of Development</p>
+
+
+<p>Email Address: sahn@caltech.edu</p>
+
+</div>
+</article>
+
+<!-- Define a new "article" environment, which is the object with author info -->
+<article class="post">
+
+<!-- Determine if an image is provided for the author, if not use a silhouette -->
+
+
+<!-- Determine if a website is associated with the author, if not use a blank-->
+
+
+<!-- Populate the author fields --> 
+
+ <a class="post-thumbnail" style="background-image: url(//assets/img/people/nadia.jpg)" href="https://www.wormbase.org"></a>
+
+<!-- Populate the author environment with the information -->
+<div class="post-content">
+
+<a href="https://www.wormbase.org"><b class="post-title">Nadia Suryawinata</b></a>
+
+<p>G1 Biology</p>
+
+<p>Caltech</p>
+
+
+<p>Email Address: nsuryawi@caltech.edu</p>
+
+<p>Current Location: Pasadena, CA</p>
+
+</div>
+</article>
+
+<!-- Define a new "article" environment, which is the object with author info -->
+<article class="post">
+
+<!-- Determine if an image is provided for the author, if not use a silhouette -->
+
+
+<!-- Determine if a website is associated with the author, if not use a blank-->
+
+
+<!-- Populate the author fields --> 
+
+ <a class="post-thumbnail" style="background-image: url(//assets/img/people/marion.png)" href="https://gnaprs.github.io/"></a>
+
+<!-- Populate the author environment with the information -->
+<div class="post-content">
+
+<a href="https://gnaprs.github.io/"><b class="post-title">Marion Pang</b></a>
+
+<p>G1 Bioengineering</p>
+
+<p>Caltech</p>
+
+
+<p>Email Address: marion.pang@caltech.edu</p>
+
+<p>Current Location: Pasadena, CA</p>
+
+</div>
+</article>
+:ET
