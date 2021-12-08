@@ -17,7 +17,7 @@ Abstract: >
   Microtubules alternate between periods of slow growth and moments of quick shortening.
   This switch from growth to shortening is often referred to as "microtubule catastrophe."
   Using the dataset provided by Gardner, Zanic and coworkers, we analyze the dynamics
-  of microtubule catastrophe with two main aims:\n
+  of microtubule catastrophe with two main aims:
   
   Aim 1) To perform data validation. In their experiment, microtubules were studied using
   fluorescent markers. We confirm that these fluorescent markers do not affect

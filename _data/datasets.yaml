@@ -14,3 +14,15 @@
   link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
   DOI: 10.1016/j.cell.2011.10.037
 
+- dataset:
+  storage: local
+  name: Unlabeled vs labeled tubulin performance
+  filetype: ".csv"
+  link: gardner_time_to_catastrophe_dic_tidy
+
+- dataset:
+  storage: local
+  name: tubulin performance at different concentrations
+  filetype: ".csv"
+  link: gardner_mt_catastrophe_only_tubulin
+
