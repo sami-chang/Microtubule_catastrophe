@@ -9,30 +9,19 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Brian Ahn
-  link: "https://en.wikipedia.org/wiki/Minecraft"
-  title: G1 Bioengineering
-  img: brian.png
-  institute: Bicoid Institute of Development
-  other_info:
-     Email Address: "sahn@caltech.edu"
-    
-- author:
-  name: Nadia Suryawinata
-  link: "https://www.wormbase.org"
-  title: G1 Biology
-  img: nadia.jpg
+  name: Rahma Elsiesy
+  title: Teammate
+  img: rahma.jpg
   institute: Caltech
-  other_info:
-    Email Address: "nsuryawi@caltech.edu"
-    Current Location: Pasadena, CA
 
 - author:
-  name: Marion Pang
-  link: "https://gnaprs.github.io/"
-  title: G1 Bioengineering
-  img: marion.png
+  name: Geeling Chau
+  title: Teammate
+  img: geeling.jpg
   institute: Caltech
-  other_info:
-    Email Address: "marion.pang@caltech.edu"
-    Current Location: Pasadena, CA
+
+- author:
+  name: Sami Chang
+  title: Teammate
+  img: sami.jpg
+  institute: Caltech
