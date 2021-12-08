@@ -18,11 +18,11 @@ Abstract: >
   This switch from growth to shortening is often referred to as "microtubule catastrophe."
   Using the dataset provided by Gardner, Zanic and coworkers, we analyze the dynamics
   of microtubule catastrophe with two main aims:
->
+
   Aim 1) To perform data validation. In their experiment, microtubules were studied using
   fluorescent markers. We confirm that these fluorescent markers do not affect
   microtubule behavior by comparing results between labeled and unlabeled tubulin.\n
->
+
   Aim 2) To investigate possible models for microtubule catastrophe. We look at
   two proposed models for the generative distribution:\n
   that catastrophe times are gamma distributed,\n
@@ -32,8 +32,8 @@ Acknowledgments: >
   Big thanks to the authors who provided this dataset: Melissa K.Gardner, Marija Zanic,
   Christopher Gell, Volker Bormuth, Jonathon Howard in their paper "Depolymerizing Kinesins Kip3
   and MCAK Shape Cellular Microtubule Architecture by Differential Control of Catastrophe."\n
->
+
   Also thanks to Griffin Chure for providing the template for this website.\n
->
+
   And finally, thanks to the Caltech's bebi103a instructor Justin Bois, and the fabulous TA's that
   supported us along the way: Matteo Guareschi, Victoria Chen, Rosita Fu, Nastya Grebin, David Larios
