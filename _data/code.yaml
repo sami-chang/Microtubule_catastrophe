@@ -1,11 +1,10 @@
 - script:
-  name: script1.py
+  name: labeling.ipynb
   desc: >
-    Super fancy script which calcualate some complicated stuff with
-    well-documented code.
+    script for Aim 1: Data Validation for Microtubule Experiments
 - script:
-  name: script2.py
+  name: modeling.ipynb
   desc: >
-    Yet another script that does something-or-other.
+    script for Aim 2: Possible Models for Microtubule Catastrophe
 
 
