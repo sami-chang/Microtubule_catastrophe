@@ -1,43 +1,83 @@
 - fig:
-  title: "Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic "
-  filename: script1.py
-  desc:  Used to generate the figure1
-  pic: fig1.png
+  title: "Fig. 1: ECDF of unlabeled vs labeled tubulin"
+  filename: labeling.ipynb
+  desc:  ECDF with bootstrapped confidence intervals
+  pic: unlabeled_labeled_ECDF.png
   req:
     - ds: 
-      storage: remote
-      title: Dataset 1
-      link: "http://data.caltech.edu"
+      storage: "local"
+      title: Unlabeled vs labeled tubulin performance
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
 
 - fig:
-  title: "Fig. 2: Activated charcoal tilde kombucha. "
-  filename: script2.py
+  title: "Fig. 2: Alternative ECDF of unlabeled vs labeled tubulin "
+  filename: labeling.ipynb
   desc: 
-      Used to generate Figure 2, illustrating activated kombucha on tap.
-  pic: fig2.png
+        ECDF confidence intervals using DKW inequality for comparing
+  pic: DKW_ecdf_CIs.png
   req:
-    - ds:
-      title: Kombucha tempura desconstructed measures
-      storage: local 
-      link: dataset2.csv
     - ds: 
       storage: local
-      title: Gravitational wave lo-fi beats to chill and study to
-      link: dataset2.csv
+      title: Unlabeled vs labeled tubulin performance
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
 
-- fig: 
-  title: "Fig. 5: Sustainable pour-over VHS"
-  filename: script1.py
+- fig:
+  title: "Fig. 3: Gamma Model fit "
+  filename: model_conc.ipynb
   desc:
-        Used to generate Figure 5, 
-  pic: fig3.png
+        proposed gamma model with MLE parameters (12uM)
+  pic: gamma_fit.png
   req:
     - ds:
-      title: Summarized dataset 1
       storage: local
-      link: dataset1.csv
-
+      title: tubulin performance at different concentrations
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      
+- fig:
+  title: "Fig. 4: Gamma Model difference from empirical data"
+  filename: model_conc.ipynb
+  desc:
+        subtracting MLE values from ECDF (12uM)
+  pic: gamma_ECDF_difference.png
+  req:
     - ds:
-      title: Summarized dataset 2
-      storage: remote
-      link: "http://zenodo.org" 
+      storage: local
+      title: tubulin performance at different concentrations
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      
+- fig:
+  title: "Fig. 5: Poisson Model fit "
+  filename: model_conc.ipynb
+  desc:
+        proposed poisson model with MLE parameters (12uM)
+  pic: poisson_fit.png
+  req:
+    - ds:
+      storage: local
+      title: tubulin performance at different concentrations
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      
+- fig:
+  title: "Fig. 6: Poisson Model difference from empirical data"
+  filename: model_conc.ipynb
+  desc:
+        subtracting MLE values from ECDF (12uM)
+  pic: poisson_ECDF_difference.png
+  req:
+    - ds:
+      storage: local
+      title: tubulin performance at different concentrations
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+
+
+- fig:
+  title: "Fig. 7: Different tubulin concentrations"
+  filename: model_conc.ipynb
+  desc:
+        displaying the ECDFs for different tubulin concentrations
+  pic: diff_conc.png
+  req:
+    - ds:
+      storage: local
+      title: tubulin performance at different concentrations
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"

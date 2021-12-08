@@ -12,3 +12,8 @@
   name: model_conc.ipynb
   desc: >
     script building on Aim 2: models for different tubulin concentrations
+
+- script:
+  name: poisson_interactive.ipynb
+  desc: >
+    script for visualizing interactive plots of the Poisson model
