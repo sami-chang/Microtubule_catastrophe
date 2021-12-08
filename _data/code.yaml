@@ -2,9 +2,13 @@
   name: labeling.ipynb
   desc: >
     script for Aim 1: Data Validation for Microtubule Experiments
+    
 - script:
   name: modeling.ipynb
   desc: >
     script for Aim 2: Possible Models for Microtubule Catastrophe
 
-
+- script:
+  name: model_conc.ipynb
+  desc: >
+    script building on Aim 2: models for different tubulin concentrations
