@@ -9,7 +9,7 @@ url: "https://sami-chang.github.io" # Base of your website.In most cases, this w
 
 # You can include social icons
 site-twitter: #if your site has a twitter account, enter it here
-social-github: sami-chang# add your Github handle here.
+social-github: sami-chang #add your Github handle here.
 social-email: schang3@caltech.edu
 
 # If you are using google analytics to track website traffic, you can insert the
