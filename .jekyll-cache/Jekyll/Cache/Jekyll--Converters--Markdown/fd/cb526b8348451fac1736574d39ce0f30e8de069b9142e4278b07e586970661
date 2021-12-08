@@ -1,0 +1,97 @@
+I"Æ<hr />
+
+<h2 id="code">Code</h2>
+
+<ul>
+  <li>
+    <p><a href="http://localhost:4000///software/labeling.ipynb"><strong>labeling.ipynb</strong></a>
+| script for Aim 1: Data Validation for Microtubule Experiments</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000///software/modeling.ipynb"><strong>modeling.ipynb</strong></a>
+| script for Aim 2: Possible Models for Microtubule Catastrophe</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000///software/model_conc.ipynb"><strong>model_conc.ipynb</strong></a>
+| script building on Aim 2: models for different tubulin concentrations</p>
+  </li>
+</ul>
+
+<h2 id="data-sets">Data Sets</h2>
+
+<ul>
+  <li>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv">Unlabeled vs labeled tubulin performance</a> | (filetype:
+csv)(24 MB)</p>
+  </li>
+  <li>
+    <p><a href="https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv">tubulin performance at different concentrations</a> | (filetype:
+csv)(24 MB)</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000///datasets/gardner_time_to_catastrophe_dic_tidy">Unlabeled vs labeled tubulin performance</a> | (filetype:
+.csv)</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000///datasets/gardner_mt_catastrophe_only_tubulin">tubulin performance at different concentrations</a> | (filetype:
+.csv)</p>
+  </li>
+</ul>
+
+<h2 id="figure-generation">Figure Generation</h2>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000///assets/img/fig1.png)" href="//figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000///software/script1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
+<p> Used to generate the figure1</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Dataset 1 </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000///assets/img/fig2.png)" href="//figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000///software/script2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
+<p> Used to generate Figure 2, illustrating activated kombucha on tap.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Kombucha tempura desconstructed measures </a><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Gravitational wave lo-fi beats to chill and study to </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000///assets/img/fig3.png)" href="//figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000///software/script1.py">Fig. 5: Sustainable pour-over VHS</a></b>
+<p> Used to generate Figure 5,</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Summarized dataset 1 </a><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Summarized dataset 2 </a><br />
+
+</div>
+</article>
+
+:ET
