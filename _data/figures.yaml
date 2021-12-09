@@ -75,7 +75,7 @@
   filename: model_conc.ipynb
   desc:
         displaying the ECDFs for different tubulin concentrations
-  pic: diff_conf.png
+  pic: diff_CI.png
   req:
     - ds:
       storage: local
